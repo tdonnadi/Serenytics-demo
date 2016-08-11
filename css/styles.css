@@ -10,12 +10,14 @@ body {
 #header-nav {
  /* background-color: #2f6b91;*/
  background-color: #4788d1;
-  height: 80px;
+ height: 80px;
  /* border-bottom-left-radius: 20px;*/
-  border-bottom-right-radius-radius: 20px;
+  /*border-bottom-right-radius-radius: 20px;*/
   border: 0;
 }
-
+.jumbotron{
+  background-color: #f8f8f8;
+}
 .navbar-brand {
   padding-top: 25px;
 }
@@ -23,7 +25,7 @@ body {
   font-family: 'Lora', serif;
   color: white;
   font-size: 1.5em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
@@ -78,18 +80,20 @@ body {
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
+  background-color: #4788d1;
   border-top: 0;
 }
 .panel-footer div.row {
-  margin-bottom: 35px;
+  margin-bottom: 10px;  
 }
-#hours, #address {
+
+#address {
   line-height: 2;
 }
-#hours > span, #address > span {
+
+#Serenytics > span, #address > span {
   font-size: 1.3em;
+  font-weight: bold;  
 }
 #address p {
   color: #557c3e;
