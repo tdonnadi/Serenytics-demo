@@ -22,7 +22,6 @@ body {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Company name */
-  font-family: 'Lora', serif;
   color: white;
   font-size: 1.5em;
   /*text-transform: uppercase;*/
@@ -38,6 +37,7 @@ body {
 
 .glyphicon {
   color:white;
+  text-shadow: 1px 1px 1px #222;
 }
 
 #nav-list {
@@ -53,19 +53,6 @@ body {
 #nav-list a span {
   font-size: 1.4em;
 }
-
-/*#phone {
-  margin-top: 5px;
-}*/
-/*#phone a { /* Phone number 
-  text-align: right;
-  padding-bottom: 0;
-}*/
-/*#phone div { /* We Deliver 
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}*/
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -238,7 +225,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+   /* background: url('../images/restaurant-logo_medium.png') no-repeat;*/
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -247,7 +234,7 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+    /*background: url('../images/jumbotron_992.jpg') no-repeat;*/
     height: 558px;
   }
   /* End Home Page */
@@ -257,7 +244,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+   /* background: url('../images/jumbotron_768.jpg') no-repeat;*/
     height: 432px;
   }
   /* End Home Page */
